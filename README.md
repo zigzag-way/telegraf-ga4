@@ -5,7 +5,7 @@ Send events to Google Analytics 4 ([Measurement Protocol](https://developers.goo
 ## Installation
 
 ```js
-$ npm i telegraf-ga4
+$ npm i https://github.com/zigzag-way/telegraf-ga4
 ```
 
 ## Example

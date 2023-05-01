@@ -1,6 +1,6 @@
 /**
  * Summary. Google Analytics 4 (Measurement Protocol) for Telegraf
- * @author Paul Braam <paulbraam7@gmail.com>
+ * @author Paul Braam <paulbraam7@gmail.com> and @zigzag-way
  */
 
 const fetch = require('cross-fetch');
@@ -33,8 +33,7 @@ class TelegrafGA4 {
   middleware() {
     return (ctx, next) => {
       ctx.ga4 = this;
-      if (!this.user_id)
-        this.user_id = ctx.from.id;
+      this.user_id = ctx.from.id;
       // set the language automatically
       this.setUserProperties({ language: ctx.from.language_code });
       return next();

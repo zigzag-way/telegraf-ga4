@@ -1,9 +1,9 @@
 {
   "name": "telegraf-ga4",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Send events to GA4 from your Telegraf bot",
   "main": "./src/esm/index.mjs",
-  "homepage": "https://github.com/paulbraam/telegraf-ga4",
+  "homepage": "https://github.com/zigzag-way/telegraf-ga4",
   "type": "module",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
     "Google Analytics 4",
     "GTM"
   ],
-  "author": "Paul Braam <paulbraam7@gmail.com>",
+  "author": "Zigzag Way <zigzag.way@gmail.com>",
   "devDependencies": {
     "dotenv": "^10.0.0",
     "jest": "^27.2.4"
